@@ -135,6 +135,7 @@ function move(){
   if (ball.y >= paddle1Y&& ball.y <= paddle1Y + paddle1Height) {
     ball.dx = -ball.dx+0.5;
     ball_touch_paddle.play();
+    player_score++;
   }
   else{
     pcscore++;
