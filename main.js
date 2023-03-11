@@ -39,7 +39,8 @@ function setup(){
 }
 
 function draw(){
-
+if(game_status=="true")
+{
  background(255,127,90); 
 
  fill(255,167,110);
@@ -80,6 +81,7 @@ function draw(){
    
    //function move call which in very important
     move();
+}
 }
 
 
@@ -185,4 +187,11 @@ function restart()
   loop();
   pcscore=0;
   playerscore=0;
+}
+
+
+function startGame()
+{
+  game_status="true";
+  document.getElementById("status").innerHTML="Game Loaded!";
 }
