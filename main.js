@@ -5,7 +5,7 @@ rightwristX="";
 rightwristScore="";
 console.log("Created by Shravani pawar");
 var paddle2 =10,paddle1=10;
-
+game_status="";
 var paddle1X = 4,paddle1Height = 70;
 var paddle2Y = 685,paddle2Height = 70;
 
