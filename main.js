@@ -193,5 +193,4 @@ function restart()
 function startGame()
 {
   game_status="true";
-  document.getElementById("status").innerHTML="Game Loaded!";
 }
